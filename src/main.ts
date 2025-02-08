@@ -11,6 +11,7 @@ async function bootstrap() {
       .setTitle('Stock & Crypto Price API')
       .setDescription('API for retrieving stock and cryptocurrency prices')
       .setVersion('1.0')
+      .setExternalDoc('Postman Collection', '/api-json')
       .build();
 
   const document = SwaggerModule.createDocument(app, config);
