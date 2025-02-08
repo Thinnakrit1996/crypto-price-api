@@ -8,8 +8,8 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const config = new DocumentBuilder()
-      .setTitle('Crypto Price API')
-      .setDescription('API for retrieving cryptocurrency prices with caching')
+      .setTitle('Stock & Crypto Price API')
+      .setDescription('API for retrieving stock and cryptocurrency prices')
       .setVersion('1.0')
       .build();
 
